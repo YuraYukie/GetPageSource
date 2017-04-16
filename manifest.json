@@ -1,0 +1,23 @@
+{
+  "name": "GetPageSources",
+  "version": "1.0.1",
+  "manifest_version": 2,
+  "description": "GetPageSourceFromUrl",
+  "background": {
+    "scripts": ["js/jquery.min.js", "/js/background.js"]
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "http://*/",
+    "https://*/",
+    "<all_urls>",
+    "contextMenus",
+    "downloads"
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
